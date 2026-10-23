@@ -12,6 +12,7 @@ public class PostfixEvaluator {
     public static int evaluate(String expression) {
         BoundedStackInterface<Integer> stack = new ArrayStack<>(100);
         Scanner tokens = new Scanner(expression);
+            
 
         // TODO 1: Process tokens one at a time.
         // TODO 2: If a token is an integer, push it onto the stack.
